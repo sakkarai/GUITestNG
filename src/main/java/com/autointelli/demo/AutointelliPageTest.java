@@ -43,7 +43,7 @@ public class AutointelliPageTest {
 		File homeFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File homeDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\HomePage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\01-HomePage.png");
 
 		FileUtils.copyFile(homeFile, homeDest);
 
@@ -59,7 +59,7 @@ public class AutointelliPageTest {
 		File productFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File productDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\ProductPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\02-ProductPage.png");
 
 		FileUtils.copyFile(productFile, productDest);
 
@@ -74,7 +74,7 @@ public class AutointelliPageTest {
 		File mediaFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File mediaDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\MediaPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\03-MediaPage.png");
 
 		FileUtils.copyFile(mediaFile, mediaDest);
 
@@ -89,7 +89,7 @@ public class AutointelliPageTest {
 		File resourceFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File resourceDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\ResourcePage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\04-ResourcePage.png");
 
 		FileUtils.copyFile(resourceFile, resourceDest);
 
@@ -104,7 +104,7 @@ public class AutointelliPageTest {
 		File infographFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File infographDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\InfographPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\05-InfographPage.png");
 
 		FileUtils.copyFile(infographFile, infographDest);
 
@@ -123,7 +123,7 @@ public class AutointelliPageTest {
 		File videoFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File videoDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\VideoPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\06-VideoPage.png");
 
 		FileUtils.copyFile(videoFile, videoDest);
 
@@ -142,7 +142,7 @@ public class AutointelliPageTest {
 		File whiteBookFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File whiteBookDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\WhiteBookPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\07-WhiteBookPage.png");
 
 		FileUtils.copyFile(whiteBookFile, whiteBookDest);
 
@@ -161,7 +161,7 @@ public class AutointelliPageTest {
 		File dataFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File dataDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\DataSheetPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\08-DataSheetPage.png");
 
 		FileUtils.copyFile(dataFile, dataDest);
 
@@ -180,7 +180,7 @@ public class AutointelliPageTest {
 		File storyFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File storyDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\StoryPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\09-StoryPage.png");
 
 		FileUtils.copyFile(storyFile, storyDest);
 
@@ -199,7 +199,7 @@ public class AutointelliPageTest {
 		File carrerFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File carrerDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\CarrerPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\10-CarrerPage.png");
 
 		FileUtils.copyFile(carrerFile, carrerDest);
 
@@ -218,7 +218,7 @@ public class AutointelliPageTest {
 		File blogFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File blogDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\BlogPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\11-BlogPage.png");
 
 		FileUtils.copyFile(blogFile, blogDest);
 
@@ -237,7 +237,7 @@ public class AutointelliPageTest {
 		File partnerFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File partnerDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\PartnerPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\12-PartnerPage.png");
 
 		FileUtils.copyFile(partnerFile, partnerDest);
 
@@ -256,7 +256,7 @@ public class AutointelliPageTest {
 		File contactFile = ts.getScreenshotAs(OutputType.FILE);
 
 		File contactDest = new File(
-				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\ContactPage.png");
+				"C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot\\13-ContactPage.png");
 
 		FileUtils.copyFile(contactFile, contactDest);
 
