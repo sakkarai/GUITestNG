@@ -1,5 +1,6 @@
 package com.autointelli.demo;
 
+import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -18,7 +19,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
+@Test
 public class AutointelliPageTest {
 
 	public WebDriver driver = new FirefoxDriver();
@@ -268,7 +271,8 @@ public class AutointelliPageTest {
 
 	}
 	
-	public void imgToPdf() {
+	@Test
+	public void imgToPdf() throws IOException{
 		
 		
 		 String inputImageDirectory = "C:\\Users\\surya\\Autiintelli\\GUITest\\ScreenShot";
@@ -314,13 +318,5 @@ public class AutointelliPageTest {
 
 	
 
-	public static void main(String[] args) throws IOException, InterruptedException {
-
-		AutointelliPageTest apt = new AutointelliPageTest();
-
-		apt.allPageTest();
-		apt.imgToPdf();
-
-	}
 
 }
